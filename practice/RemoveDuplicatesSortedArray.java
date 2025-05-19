@@ -1,3 +1,4 @@
+import java.util.*;
 public class RemoveDuplicatesSortedArray {
     public int removeDuplicates(int[] nums) {
         TreeSet<Integer> unique = new TreeSet<>();
